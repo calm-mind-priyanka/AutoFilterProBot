@@ -9,7 +9,7 @@ API_HASH = "6dd2dc70434b2f577f76a2e993135662"        # Replace with your Telegra
 MONGO_URI = "mongodb+srv://mayurgogoi821:Ae5eEMIJV9aYED81@cluster0.930txsz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Replace with your Mongo URI
 
 # Movie channel ID (numeric, not username)
-MOVIE_CHANNEL = -1001234567890
+MOVIE_CHANNEL = -1002694840394
 
 # IMDb API (optional)
 IMDB_API = "your_imdb_api_key_here"  # Leave "" if not used
