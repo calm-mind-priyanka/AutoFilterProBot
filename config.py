@@ -1,12 +1,18 @@
-import os
+# config.py
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+# Telegram Bot credentials
+BOT_TOKEN = "123456789:ABCDefGhIJKlmnoPQRstUvwxYZ"   # Replace with your bot token
+API_ID = 1234567                                      # Replace with your Telegram API ID
+API_HASH = "abcdef1234567890abcdef1234567890"        # Replace with your Telegram API Hash
 
-MONGO_URI = os.getenv("MONGO_URI")
-MOVIE_CHANNEL = int(os.getenv("MOVIE_CHANNEL"))  # e.g. -1001234567890
+# MongoDB connection
+MONGO_URI = "mongodb+srv://username:password@cluster.mongodb.net/mydb"  # Replace with your Mongo URI
 
-IMDB_API = os.getenv("IMDB_API")  # Optional
+# Movie channel ID (numeric, not username)
+MOVIE_CHANNEL = -1001234567890
 
-DEFAULT_FILES_MODE = os.getenv("DEFAULT_FILES_MODE", "document")
+# IMDb API (optional)
+IMDB_API = "your_imdb_api_key_here"  # Leave "" if not used
+
+# Default file mode for delivery: "document" or "video"
+DEFAULT_FILES_MODE = "document"
