@@ -2,8 +2,8 @@
 
 # Telegram Bot credentials
 BOT_TOKEN = "123456789:ABCDefGhIJKlmnoPQRstUvwxYZ"   # Replace with your bot token
-API_ID = 1234567                                      # Replace with your Telegram API ID
-API_HASH = "abcdef1234567890abcdef1234567890"        # Replace with your Telegram API Hash
+API_ID = 24222039                                      # Replace with your Telegram API ID
+API_HASH = "6dd2dc70434b2f577f76a2e993135662"        # Replace with your Telegram API Hash
 
 # MongoDB connection
 MONGO_URI = "mongodb+srv://username:password@cluster.mongodb.net/mydb"  # Replace with your Mongo URI
