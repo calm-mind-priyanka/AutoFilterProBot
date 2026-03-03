@@ -1,19 +1,18 @@
-# Base image
+# Use slim Python 3.11
 FROM python:3.11-slim
-# Set working dir
+
+# Set working directory
 WORKDIR /bot
 
 # Copy requirements
 COPY requirements.txt .
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Upgrade pip and install dependencies
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
 
-# Copy all code
+# Copy bot code
 COPY . .
 
-# Set environment variables from Koyeb dashboard
-ENV PYTHONUNBUFFERED=1
-
-# Run bot
+# Start the bot
 CMD ["python", "main.py"]
