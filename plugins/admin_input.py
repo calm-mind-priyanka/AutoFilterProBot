@@ -3,7 +3,7 @@ from pyrogram import filters
 from database.settings import update_setting
 from database.users import get_state, set_state
 
-ADMIN_ID = 123456789  # Replace with your Telegram ID
+ADMIN_ID = 6046055058  # Replace with your Telegram ID
 
 @app.on_message(filters.private & filters.user(ADMIN_ID) & ~filters.command("settings"))
 async def admin_input_handler(client, message):
