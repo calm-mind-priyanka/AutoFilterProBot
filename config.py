@@ -1,7 +1,7 @@
 # config.py
 
 # Telegram Bot credentials
-BOT_TOKEN = "123456789:ABCDefGhIJKlmnoPQRstUvwxYZ"   # Replace with your bot token
+BOT_TOKEN = "8430798122:AAHOcHZn2-w7Wq2OU0pUVRAiN47Y4e7vnLE"   # Replace with your bot token
 API_ID = 24222039                                      # Replace with your Telegram API ID
 API_HASH = "6dd2dc70434b2f577f76a2e993135662"        # Replace with your Telegram API Hash
 
