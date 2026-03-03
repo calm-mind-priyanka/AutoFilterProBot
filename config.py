@@ -15,4 +15,4 @@ MOVIE_CHANNEL = -1001234567890
 IMDB_API = "your_imdb_api_key_here"  # Leave "" if not used
 
 # Default file mode for delivery: "document" or "video"
-DEFAULT_FILES_MODE = "document"
+DEFAULT_FILES_MODE = "video"
