@@ -6,7 +6,7 @@ API_ID = 24222039                                      # Replace with your Teleg
 API_HASH = "6dd2dc70434b2f577f76a2e993135662"        # Replace with your Telegram API Hash
 
 # MongoDB connection
-MONGO_URI = "mongodb+srv://username:password@cluster.mongodb.net/mydb"  # Replace with your Mongo URI
+MONGO_URI = "mongodb+srv://mayurgogoi821:Ae5eEMIJV9aYED81@cluster0.930txsz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Replace with your Mongo URI
 
 # Movie channel ID (numeric, not username)
 MOVIE_CHANNEL = -1001234567890
